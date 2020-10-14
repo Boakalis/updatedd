@@ -64,10 +64,16 @@ li {
      display: inline-block;
   
    }
-   .yohi
+   p
    {
     font-family: 'Stalinist One', cursive;
-    color: black;
+    color: black; 
+    text-align: center;
+    padding: 1rem 1rem;
+    margin: 5rem 3rem;
+    
+    line-height: 2rem;
+
 }
 .container-fluid
 {
@@ -88,4 +94,18 @@ a:hover
 {
   color: red;
   text-decoration: none;
+}
+
+@media (min-width: 576px) and (max-width:800px)
+
+{
+  .categories
+  {
+    font-size: 1rem
+  }
+}
+.brand
+{
+  font-size: 3rem;
+  line-height: 5rem;
 }
